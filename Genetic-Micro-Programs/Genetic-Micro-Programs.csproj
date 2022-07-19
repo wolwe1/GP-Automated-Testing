@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Genetic_Microprograms</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\lib\lib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="output\adf" />
+      <Folder Include="output\run-statistics" />
+      <Folder Include="output\generalisation" />
+    </ItemGroup>
+
+</Project>
